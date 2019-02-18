@@ -179,9 +179,8 @@ Make sure the `.yml` file `voter` items have the account name, followed by a spa
 See some of my previous Ruby How To posts in: [#rubybear](https://bearshares.com/created/rubybear) [#ruby](https://bearshares.com/created/ruby)
 
 
-## Get in touch!
-
-If you're using Dr. Phil, I'd love to hear from you.  Drop me a line and tell me what you think!  I'm @bilalhaider on bearshares.
+## Credits!
+Anthony Martin, @inertia .. https://github.com/inertia186
   
 ## License
 
