@@ -4,7 +4,7 @@
 
 #### New Features
 
-* Gem update.
+* Works in winfrey mode
 * Switched to [`rubybear`](https://github.com/bearshares/rubybear)
 * Added optional support for [`meeseeker`](https://github.com/inertia186/meeseeker).
 
@@ -75,7 +75,7 @@ If the complaint about Winfrey is blockchain bloat, Dr. Phil prescribes weight l
 
 #### Install
 
-To use this ~~[Radiator](https://bearshares.com/bears/@inertia/radiator-bears-ruby-api-client)~~ [bears-ruby](https://github.com/bearshares/bears-ruby) bot:
+To use this ~~[RubyBear](https://bearshares.com/bearshares/rubybear) bot:
 
 ##### Linux
 
@@ -99,7 +99,7 @@ I've tested it on various versions of ruby.  The oldest one I got it to work was
 First, clone this gist and install the dependencies:
 
 ```bash
-$ git clone https://gist.github.com/61bcc2b821aa5acb24f7fc88921950c7.git drphil
+$ git clone https://github.com/bearshares/cubsupports.git drphil
 $ cd drphil
 $ bundle install
 ```
@@ -112,7 +112,7 @@ $ ruby drphil.rb
 
 Dr. Phil will now do it's thing.  Check here to see an updated version of this bot:
 
-Repository: https://gist.github.com/inertia186/61bcc2b821aa5acb24f7fc88921950c7
+Repository: https://github.com/bearshares/cubsupports.git
 
 ---
 
