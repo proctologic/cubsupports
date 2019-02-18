@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base58 (0.2.3)
+    bindata (2.4.4)
+    bitcoin-ruby (0.0.18)
+    ffi (1.10.0)
+    hashie (3.6.0)
+    json (2.1.0)
+    little-plugger (1.1.4)
+    logging (2.2.2)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.10)
+    multi_json (1.13.1)
+    redis (4.1.0)
+    rubybear (0.0.2)
+      base58 (~> 0.2, >= 0.2.3)
+      bindata (~> 2.4, >= 2.4.4)
+      bitcoin-ruby (~> 0.0, >= 0.0.18)
+      ffi (~> 1.9, >= 1.9.23)
+      hashie (~> 3.5, >= 3.5.7)
+      json (~> 2.1, >= 2.1.0)
+      logging (~> 2.2, >= 2.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  redis
+  rubybear
+
+BUNDLED WITH
+   1.16.5

@@ -1,0 +1,42 @@
+voting_rules:
+  # mode: drphil - picks one random voter for each post
+  # mode: winfrey - cycles all voters on each post
+  mode: winfrey
+  vote_weight: 10.00 %
+  favorites_vote_weight: 100.00 %
+  following_vote_weight: 10.00 %
+  followers_vote_weight: 10.00 %
+  enable_comments: false
+  only_first_posts: false
+  only_fully_powered_up: false
+  min_wait: 2
+  max_wait: 3
+  min_rep: 25.0
+  max_rep: 99.9
+  min_voting_power: 95.00 %
+  # unique_author: 1440
+  # max_votes_per_post: 10
+  
+voters:
+  - bilalhaider 5JXXXXXXXXXXXXXXXXXXX
+
+favorite_accounts: bilalhaider ruby bearshares
+skip_accounts: leeroy.jenkins the.masses danlarimer ned-reddit-login
+skip_tags: nsfw test
+# only_tags: bearshares
+# only_apps: bearshares ebears streemian pybears steepshot busy chainbb banjo_bot chronicle bearsq
+# skip_apps: piston
+flag_signals: cheetah bearscleaners
+vote_signals: 
+
+# If you are running a meeseeker sync, you can enable that for streaming by
+# uncommenting this group.  If the meeseeker sync is running on another host,
+# update the :url: line with the correct address.
+# 
+# See: https://github.com/inertia186/meeseeker
+# :meeseeker_options:
+#   :url: redis://127.0.0.1:6379/0
+
+:chain_options:
+  :chain: bears
+  :url: https://api.bearshares.com
