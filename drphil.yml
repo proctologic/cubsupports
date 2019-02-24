@@ -9,8 +9,8 @@ voting_rules:
   enable_comments: false
   only_first_posts: false
   only_fully_powered_up: false
-  min_wait: 2
-  max_wait: 3
+  min_wait: 18
+  max_wait: 30
   min_rep: 25.0
   max_rep: 99.9
   min_voting_power: 89 %
