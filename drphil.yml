@@ -2,10 +2,10 @@ voting_rules:
   # mode: drphil - picks one random voter for each post
   # mode: winfrey - cycles all voters on each post
   mode: winfrey
-  vote_weight: 10.00 %
-  favorites_vote_weight: 100.00 %
-  following_vote_weight: 10.00 %
-  followers_vote_weight: 10.00 %
+  vote_weight: 100.00 %
+  favorites_vote_weight: 0.00 %
+  following_vote_weight: 0.00 %
+  followers_vote_weight: 0.00 %
   enable_comments: false
   only_first_posts: false
   only_fully_powered_up: false
@@ -13,17 +13,17 @@ voting_rules:
   max_wait: 3
   min_rep: 25.0
   max_rep: 99.9
-  min_voting_power: 95.00 %
+  min_voting_power: 89 %
   # unique_author: 1440
   # max_votes_per_post: 10
   
 voters:
-  - bilalhaider 5JXXXXXXXXXXXXXXXXXXX
+  - username 5Jpassword
 
 favorite_accounts: bilalhaider ruby bearshares
 skip_accounts: leeroy.jenkins the.masses danlarimer ned-reddit-login
 skip_tags: nsfw test
-# only_tags: bearshares
+only_tags: weekchallenge weekchallenge-special
 # only_apps: bearshares ebears streemian pybears steepshot busy chainbb banjo_bot chronicle bearsq
 # skip_apps: piston
 flag_signals: cheetah bearscleaners
